@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'score';
+    src: url('score.ttf');
+}
+
+body {
+
+    margin: 0;
+    background: #1B244A;
+    color: white;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#home-score-font, #guest-score-font {
+    font-family: score;
+}
+
+button {
+    font-family: score;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #9AABD8;
+    background: none;
+    color: #9AABD8;
+}
+
+#home-score, #guest-score{
+    background: black;
+    border-radius: 10px;
+    font-size: 90px;
+    color: #F94F6D;
+    height: 120px;
+    width: 155px;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.titles {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0px;
+}
